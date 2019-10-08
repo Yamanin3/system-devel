@@ -1,0 +1,10 @@
+c:\users\b8099\source\repos\ログイン画面\ログイン画面\bin\Debug\ログイン画面.exe.config
+c:\users\b8099\source\repos\ログイン画面\ログイン画面\bin\Debug\ログイン画面.exe
+c:\users\b8099\source\repos\ログイン画面\ログイン画面\bin\Debug\ログイン画面.pdb
+c:\users\b8099\source\repos\ログイン画面\ログイン画面\obj\Debug\ログイン画面.csprojAssemblyReference.cache
+c:\users\b8099\source\repos\ログイン画面\ログイン画面\obj\Debug\ログイン画面.ログイン.resources
+c:\users\b8099\source\repos\ログイン画面\ログイン画面\obj\Debug\ログイン画面.Properties.Resources.resources
+c:\users\b8099\source\repos\ログイン画面\ログイン画面\obj\Debug\ログイン画面.csproj.GenerateResource.cache
+c:\users\b8099\source\repos\ログイン画面\ログイン画面\obj\Debug\ログイン画面.csproj.CoreCompileInputs.cache
+c:\users\b8099\source\repos\ログイン画面\ログイン画面\obj\Debug\ログイン画面.exe
+c:\users\b8099\source\repos\ログイン画面\ログイン画面\obj\Debug\ログイン画面.pdb
