@@ -29,13 +29,14 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -52,8 +53,27 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "登録";
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(27, 200);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(150, 107);
+            this.button4.TabIndex = 0;
+            this.button4.Text = "注文登録";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(27, 40);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(150, 113);
+            this.button3.TabIndex = 0;
+            this.button3.Text = "発注登録";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.button7);
             this.groupBox2.Controls.Add(this.button6);
             this.groupBox2.Controls.Add(this.button5);
             this.groupBox2.Location = new System.Drawing.Point(301, 39);
@@ -63,51 +83,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "確認";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(586, 118);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(150, 80);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "新規";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(586, 266);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(150, 80);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "ログアウト";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(27, 79);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(150, 70);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "発注登録";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(27, 237);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(150, 70);
-            this.button4.TabIndex = 0;
-            this.button4.Text = "注文登録";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(32, 79);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(150, 70);
-            this.button5.TabIndex = 0;
-            this.button5.Text = "発送確認";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
             // button6
             // 
             this.button6.Location = new System.Drawing.Point(32, 237);
@@ -116,6 +91,43 @@
             this.button6.TabIndex = 1;
             this.button6.Text = "在庫確認";
             this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(32, 40);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(150, 70);
+            this.button5.TabIndex = 0;
+            this.button5.Text = "発送確認";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(507, 43);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(123, 42);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "新規";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(649, 43);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(129, 42);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "ログアウト";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(32, 138);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(150, 69);
+            this.button7.TabIndex = 2;
+            this.button7.Text = "注文確認";
+            this.button7.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -144,6 +156,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button7;
     }
 }
 
