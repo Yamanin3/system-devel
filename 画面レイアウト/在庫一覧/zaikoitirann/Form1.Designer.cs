@@ -42,61 +42,68 @@
             // GridView1
             // 
             this.GridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.GridView1.Location = new System.Drawing.Point(82, 202);
+            this.GridView1.Location = new System.Drawing.Point(62, 162);
+            this.GridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.GridView1.Name = "GridView1";
             this.GridView1.RowTemplate.Height = 24;
-            this.GridView1.Size = new System.Drawing.Size(488, 247);
+            this.GridView1.Size = new System.Drawing.Size(366, 198);
             this.GridView1.TabIndex = 0;
             // 
             // lbl_h
             // 
             this.lbl_h.AutoSize = true;
-            this.lbl_h.Location = new System.Drawing.Point(60, 32);
+            this.lbl_h.Location = new System.Drawing.Point(45, 26);
+            this.lbl_h.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_h.Name = "lbl_h";
-            this.lbl_h.Size = new System.Drawing.Size(67, 15);
+            this.lbl_h.Size = new System.Drawing.Size(53, 12);
             this.lbl_h.TabIndex = 1;
             this.lbl_h.Text = "在庫一覧";
             // 
             // bt_r
             // 
-            this.bt_r.Location = new System.Drawing.Point(511, 136);
+            this.bt_r.Location = new System.Drawing.Point(383, 109);
+            this.bt_r.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bt_r.Name = "bt_r";
-            this.bt_r.Size = new System.Drawing.Size(75, 23);
-            this.bt_r.TabIndex = 2;
+            this.bt_r.Size = new System.Drawing.Size(56, 18);
+            this.bt_r.TabIndex = 5;
             this.bt_r.Text = "戻る";
             this.bt_r.UseVisualStyleBackColor = true;
             // 
             // bt_e
             // 
-            this.bt_e.Location = new System.Drawing.Point(369, 136);
+            this.bt_e.Location = new System.Drawing.Point(277, 109);
+            this.bt_e.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bt_e.Name = "bt_e";
-            this.bt_e.Size = new System.Drawing.Size(75, 23);
-            this.bt_e.TabIndex = 3;
+            this.bt_e.Size = new System.Drawing.Size(56, 18);
+            this.bt_e.TabIndex = 4;
             this.bt_e.Text = "検索";
             this.bt_e.UseVisualStyleBackColor = true;
             // 
             // lbl_S
             // 
             this.lbl_S.AutoSize = true;
-            this.lbl_S.Location = new System.Drawing.Point(105, 125);
+            this.lbl_S.Location = new System.Drawing.Point(79, 100);
+            this.lbl_S.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_S.Name = "lbl_S";
-            this.lbl_S.Size = new System.Drawing.Size(52, 15);
+            this.lbl_S.Size = new System.Drawing.Size(41, 12);
             this.lbl_S.TabIndex = 4;
             this.lbl_S.Text = "商品名";
             // 
             // txt_d
             // 
-            this.txt_d.Location = new System.Drawing.Point(194, 125);
+            this.txt_d.Location = new System.Drawing.Point(146, 100);
+            this.txt_d.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_d.Name = "txt_d";
-            this.txt_d.Size = new System.Drawing.Size(100, 22);
-            this.txt_d.TabIndex = 5;
+            this.txt_d.Size = new System.Drawing.Size(76, 19);
+            this.txt_d.TabIndex = 3;
             // 
             // lbl_o
             // 
             this.lbl_o.AutoSize = true;
-            this.lbl_o.Location = new System.Drawing.Point(105, 82);
+            this.lbl_o.Location = new System.Drawing.Point(79, 66);
+            this.lbl_o.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_o.Name = "lbl_o";
-            this.lbl_o.Size = new System.Drawing.Size(50, 15);
+            this.lbl_o.Size = new System.Drawing.Size(39, 12);
             this.lbl_o.TabIndex = 6;
             this.lbl_o.Text = "カテゴリ";
             this.lbl_o.Click += new System.EventHandler(this.label1_Click);
@@ -104,16 +111,17 @@
             // comboBox_e
             // 
             this.comboBox_e.FormattingEnabled = true;
-            this.comboBox_e.Location = new System.Drawing.Point(194, 82);
+            this.comboBox_e.Location = new System.Drawing.Point(146, 66);
+            this.comboBox_e.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox_e.Name = "comboBox_e";
-            this.comboBox_e.Size = new System.Drawing.Size(100, 23);
-            this.comboBox_e.TabIndex = 7;
+            this.comboBox_e.Size = new System.Drawing.Size(76, 20);
+            this.comboBox_e.TabIndex = 2;
             // 
             // gridview_s
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(614, 393);
             this.Controls.Add(this.comboBox_e);
             this.Controls.Add(this.lbl_o);
             this.Controls.Add(this.txt_d);
@@ -122,6 +130,7 @@
             this.Controls.Add(this.bt_r);
             this.Controls.Add(this.lbl_h);
             this.Controls.Add(this.GridView1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "gridview_s";
             this.Text = "在庫一覧";
             ((System.ComponentModel.ISupportInitialize)(this.GridView1)).EndInit();
